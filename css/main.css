@@ -1,11 +1,19 @@
 html, body {
   width: 100%;
   height: 100%;
+
+  color: #aaa;
 }
 
 svg.js-lifegame {
+  position: absolute;;
+  top: 0;
+  left: 0;
+
   width: 100%;
   height: 100%;
+
+  z-index: -1000;
 }
 
 svg rect.live {
@@ -22,8 +30,27 @@ body {
   animation: cellAnimation 10s ease infinite;
 }
 
+hr {
+  border-top: 1px solid #aaa;
+}
+
 @keyframes cellAnimation {
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
   100% { background-position: 0% 50% }
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.avatar img {
+  width: 70px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.bordered-container {
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
 }
