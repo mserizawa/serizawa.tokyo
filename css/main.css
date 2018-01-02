@@ -1,0 +1,29 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+svg.js-lifegame {
+  width: 100%;
+  height: 100%;
+}
+
+svg rect.live {
+  fill: none;
+}
+
+svg rect.dead {
+  fill: #2a2a2a;
+}
+
+body {
+  background: linear-gradient(60deg, #1d1d1d, #333535, #1d1d1d);
+  background-size: 600% 600%;
+  animation: cellAnimation 10s ease infinite;
+}
+
+@keyframes cellAnimation {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
