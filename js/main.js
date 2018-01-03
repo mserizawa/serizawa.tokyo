@@ -1,9 +1,13 @@
 var CELL_WIDTH = 10,
     svg = d3.select('.js-lifegame'),
-    svgRect = svg.node().getBoundingClientRect(),
-    row = Math.floor(svgRect['width'] / CELL_WIDTH) + 1,
-    col = Math.floor(svgRect['height'] / CELL_WIDTH) + 1,
+    scrollHeight = document.body.scrollHeight,
+    scrollWidth = document.body.scrollWidth,
+    row = Math.floor(scrollWidth / CELL_WIDTH) + 1,
+    col = Math.floor(scrollHeight / CELL_WIDTH) + 1,
     data = [];
+
+svg.style('width', scrollWidth)
+   .style('height', scrollHeight);
 
 // init data
 for (var i = 0; i < row * col; i++) {
