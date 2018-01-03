@@ -25,13 +25,20 @@ svg rect.dead {
 }
 
 body {
+  font-family: 'Heebo', sans-serif;
+
   background: linear-gradient(60deg, #1d1d1d, #333535, #1d1d1d);
   background-size: 600% 600%;
   animation: cellAnimation 10s ease infinite;
 }
 
-hr {
-  border-top: 1px solid #aaa;
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 12px;
 }
 
 @keyframes cellAnimation {
@@ -42,6 +49,10 @@ hr {
 
 .margin-top-30 {
   margin-top: 30px;
+}
+
+.avatar p {
+  font-size: 30px;
 }
 
 .avatar img {
