@@ -57,8 +57,21 @@ h2 {
 
 .avatar img {
   width: 70px;
-  vertical-align: middle;
-  margin-right: 10px;
+}
+
+@media (max-width: 380px) {
+  .avatar img {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 381px) {
+  .avatar img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .avatar br {
+    display: none;
+  }
 }
 
 .bordered-container {
