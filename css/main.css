@@ -41,6 +41,22 @@ h2 {
   margin-top: 12px;
 }
 
+ul {
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 4px 0px;
+}
+
+a, a:hover, a:active, a:focus {
+  color: #aaa;
+  outline: 0;
+  text-decoration: underline;
+}
+
 @keyframes cellAnimation {
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
@@ -59,12 +75,12 @@ h2 {
   width: 70px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 370px) {
   .avatar img {
     margin-bottom: 10px;
   }
 }
-@media (min-width: 381px) {
+@media (min-width: 371px) {
   .avatar img {
     vertical-align: middle;
     margin-right: 10px;
