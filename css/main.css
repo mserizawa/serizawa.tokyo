@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
 
-  color: #aaa;
+  color: #ccc;
 }
 
 svg.js-lifegame {
@@ -52,9 +52,10 @@ ul li {
 }
 
 a, a:hover, a:active, a:focus {
-  color: #aaa;
+  color: #ccc;
   outline: 0;
   text-decoration: underline;
+  text-decoration-color: #ccc;
 }
 
 @keyframes cellAnimation {
@@ -91,6 +92,6 @@ a, a:hover, a:active, a:focus {
 }
 
 .bordered-container {
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
