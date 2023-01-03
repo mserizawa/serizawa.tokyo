@@ -1,7 +1,7 @@
 ---
 title: "日本語テスト"
 date: 2023-01-03T14:13:22+09:00
-draft: true
+draft: false
 author: "Masato SERIZAWA"
 ---
 
