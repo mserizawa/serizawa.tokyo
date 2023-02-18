@@ -17,7 +17,7 @@ publishDir: "../blog"
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Masato SERIZAWA Blog"
-  description: "Masato SERIZAWA のブログです"
+  description: "SmartHR CEO 芹澤雅人のブログです。"
   keywords: [Blog]
   author: "Masato SERIZAWA"
   # author: ["Me", "You"] # multiple authors
@@ -45,11 +45,12 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
+    favicon: "img/favicon.png"
+    favicon16x16: "img/favicon16.png"
+    favicon32x32: "img/favicon32.png"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
+    disableScrollBarStyle: true
 
   label:
     text: "Home"
@@ -73,8 +74,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Masato SERIZAWA Blog"
-    Content: "Welcome to Masato SERIZAWA Blog."
+    Title: "Hello World,"
+    Content: "SmartHR CEO 芹澤雅人のブログです。"
 
   socialIcons:
     - name: twitter
