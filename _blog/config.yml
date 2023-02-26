@@ -21,7 +21,7 @@ params:
   keywords: [Blog]
   author: "Masato SERIZAWA"
   # author: ["Me", "You"] # multiple authors
-  images: ["img/ogp/png"]
+  images: ["img/ogp.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
