@@ -5,6 +5,7 @@ draft: false
 author: "Masato SERIZAWA"
 cover:
   image: "img/covers/rakugo.jpg"
+  alt: "先日訪れた新宿末廣亭の入り口の写真"
 ---
 
 こんにちは。SmartHR CEOの芹澤です。
