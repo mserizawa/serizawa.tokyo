@@ -1,6 +1,6 @@
 ---
 title: "メタ認知に役立つビジネスパーソンの類型"
-date: 2023-12-12T00:00:00+09:00
+date: 2023-12-13T00:00:00+09:00
 draft: false
 author: "Masato SERIZAWA"
 cover:
